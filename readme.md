@@ -1,5 +1,5 @@
 # Garry's Mod
-Hello! こにちわ！
+Hello!
 
 This repo will host everything related to Garry's Mod (maps, instances, props, textures, etc.)
 It will only include original assets, custom assets used from other games or UGC will not be directly provided.
