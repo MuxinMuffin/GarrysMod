@@ -5,7 +5,7 @@ This repo will host everything related to Garry's Mod (maps, instances, props, t
 It will only include original assets, custom assets used from other games or UGC will not be directly provided.
 
 # Notes
-As of now this is a private or invite only repo. Currently making changes for a public release.
+As of now this is a public repo.
 
 # Terms of Use
 1) For Garry's Mod only, you are allowed to upload deriatives of my work on the Steam Workshop, you may upload anywhere else too.
