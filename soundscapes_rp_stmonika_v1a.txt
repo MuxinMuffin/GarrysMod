@@ -1,0 +1,399 @@
+// rp_stmonika soundscapes
+//------------------------------------------------------------------------------------------
+//
+// Generic outdoors ambience
+
+"stmonika.exterior.01"
+{
+//	"dsp"	"21"
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\amb_bank_01.wav"
+	}  
+	
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"100"
+		"wave"		"ambient\wind\tree_sway_wind_lp_02.wav"
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"29,38"
+		"volume"		"0.4,0.6"
+		"pitch"		"85,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\playonce\overhead\bank_airplane_01.wav"
+			"wave"	"ambient\playonce\overhead\bank_airplane_02.wav"
+			"wave"	"ambient\overhead\bank_airplane_03.wav"
+			"wave"	"ambient\playonce\overhead\hel1.wav"
+			"wave"	"ambient\playonce\overhead\hel2.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"21,45"
+		"volume"		"0.6,0.8"
+		"pitch"		"85,100"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient\misc\car1.wav"
+			"wave"	"ambient\misc\car2.wav"
+			"wave"	"ambient\misc\ambulance1.wav"
+			"wave"	"ambient\playonce\misc\truck_drive1.wav"
+			"wave"	"ambient\playonce\misc\truck_drive2.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"21,45"
+		"volume"		"0.4,0.5"
+		"pitch"		"85,100"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient\misc\carhonk1.wav"
+			"wave"	"ambient\misc\carhonk2.wav"
+		}
+	}
+}
+
+// Quieter version for downtown
+
+"stmonika.exterior.02"
+{
+//	"dsp"	"21"
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\amb_bank_01.wav"
+	}  
+	
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"		"100"
+		"wave"		"ambient\wind\tree_sway_wind_lp_02.wav"
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"40,60"
+		"volume"		"0.1,0.2"
+		"pitch"		"85,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\playonce\overhead\bank_airplane_01.wav"
+			"wave"	"ambient\playonce\overhead\bank_airplane_02.wav"
+			"wave"	"ambient\overhead\bank_airplane_03.wav"
+			"wave"	"ambient\playonce\overhead\hel1.wav"
+			"wave"	"ambient\playonce\overhead\hel2.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"21,45"
+		"volume"		"0.4,0.5"
+		"pitch"		"85,100"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient\misc\car1.wav"
+			"wave"	"ambient\misc\car2.wav"
+			"wave"	"ambient\misc\ambulance1.wav"
+			"wave"	"ambient\playonce\misc\truck_drive1.wav"
+			"wave"	"ambient\playonce\misc\truck_drive2.wav"
+		}
+	}
+	"playrandom"
+	{
+
+		"time"		"50,70"
+		"volume"		"0.4,0.5"
+		"pitch"		"85,100"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient\misc\carhonk1.wav"
+			"wave"	"ambient\misc\carhonk2.wav"
+		}
+	}
+}
+
+// No city life version (for quarry topside)
+
+"stmonika.exterior.03"
+{
+//	"dsp"	"21"
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\amb_bank_01.wav"
+	}  
+	
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"		"100"
+		"wave"		"ambient\wind\tree_sway_wind_lp_02.wav"
+	}
+	
+	"playrandom"
+	{
+
+		"time"		"40,60"
+		"volume"		"0.1,0.2"
+		"pitch"		"85,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient\playonce\overhead\bank_airplane_01.wav"
+			"wave"	"ambient\playonce\overhead\bank_airplane_02.wav"
+			"wave"	"ambient\overhead\bank_airplane_03.wav"
+			"wave"	"ambient\playonce\overhead\hel1.wav"
+			"wave"	"ambient\playonce\overhead\hel2.wav"
+		}
+	}
+}
+
+
+//------------------------------------------------------------------------------------------
+//
+// Generic interior ambience
+//
+
+"stmonika.interior.01"
+{
+//	"dsp"	"5"
+
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"		"100"
+		"wave"		"ambient\tones\roomtone3.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"		"100"
+		"wave"		"ambient\atmosphere\amb_bank_02.wav"
+	}  
+	
+}
+
+//------------------------------------------------------------------------------------------
+//
+// Seaside ambience 
+//
+
+"stmonika.seaside.01"
+{
+
+	"playsoundscape"
+	{
+	    "name" "stmonika.exterior.02"
+	}
+	
+	"playrandom"
+	{
+		"time"			"6,15"
+		"pitch"			"90,100"
+		"volume"		"0.7"
+		"soundlevel"  	"SNDLVL_NORM"
+		"position"      "random"
+		
+// Seagulls
+
+		"rndwave"
+		{
+			"wave"	"ambient\levels\coast\seagulls_ambient1.wav"
+			"wave"	"ambient\levels\coast\seagulls_ambient2.wav"
+			"wave"	"ambient\levels\coast\seagulls_ambient3.wav"
+			"wave"	"ambient\levels\coast\seagulls_ambient4.wav"
+			"wave"	"ambient\levels\coast\seagulls_ambient5.wav"
+		}
+	}
+}
+//------------------------------------------------------------------------------------------
+//
+// Casino ambience
+//
+
+"stmonika.casino.01"
+{
+//	"dsp" "7"
+	
+	"playsoundscape"
+	{
+	    "name" "stmonika.interior.01"
+	}
+	
+// Slot Machine jackpot
+
+	"playrandom"
+	{
+		"time"			"20,40"
+		"pitch"			"90,100"
+		"volume"		"0.35, .4"
+		"soundlevel"  	"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"	"ambient\stmonika\jackpot01.wav"
+			"wave"	"ambient\stmonika\jackpot02.wav"
+			"wave"	"ambient\stmonika\jackpot03.wav"
+		}
+	}
+}
+
+// Casino light for hotel
+
+"stmonika.casino.02"
+{
+//	"dsp" "7"
+	
+	"playsoundscape"
+	{
+	    "name" "stmonika.interior.01"
+	}
+	
+// Slot Machine jackpot
+
+	"playrandom"
+	{
+		"time"			"20,40"
+		"pitch"			"90,100"
+		"volume"		"0.05, 0.10"
+		"soundlevel"  	"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"	"ambient\stmonika\jackpot01.wav"
+			"wave"	"ambient\stmonika\jackpot02.wav"
+			"wave"	"ambient\stmonika\jackpot03.wav"
+		}
+	}
+}
+	
+//------------------------------------------------------------------------------------------
+//
+// Metro ambience
+//
+
+"stmonika.metro.01"
+{
+//	"dsp" "7"
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+	}
+	"playrandom"
+	{
+		"time"			"10,25"
+		"pitch"			"90,100"
+		"volume"		"0.4"
+		"soundlevel"  	"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"	"ambient\misc\metal_str1.wav"
+			"wave"	"ambient\misc\metal_str2.wav"
+			"wave"	"ambient\misc\metal_str3.wav"
+			"wave"	"ambient\misc\metal_str4.wav"
+			"wave"	"ambient\misc\metal_str5.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"			"20,60"
+		"pitch"			"90,100"
+		"volume"		"0.4"
+		"soundlevel"  	"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"	"ambient\playonce\tones\pipes.wav"
+			"wave"	"ambient\playonce\tones\pipes2.wav"
+		}
+	}
+
+	// 0: Train 
+	"playlooping"
+	{
+		"position"		"0"	
+		"pitch"			"100"
+		"volume"		".8"
+		"soundlevel"  	"SNDLVL_75dB"
+		"wave"			"ambient\machines\train_idle.wav"
+	}
+}
+
+//------------------------------------------------------------------------------------------
+//
+// Mine (underground) ambience
+//
+
+"stmonika.mines.01"
+{
+//	"dsp" "7"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+	}
+	
+	"playrandom"
+	{
+		"time"			"25,40"
+		"pitch"			"90,100"
+		"volume"		"0.4"
+		"soundlevel"  	"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"	"ambient\levels\caves\rumble2.wav"
+			"wave"	"ambient\levels\caves\rumble3.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"			"7,20"
+		"pitch"			"90,100"
+		"volume"		"0.4"
+		"soundlevel"  	"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"	"ambient\water\distant_drip1.wav"
+			"wave"	"ambient\water\distant_drip2.wav"
+			"wave"	"ambient\water\distant_drip3.wav"
+			"wave"	"ambient\water\distant_drip4.wav"
+		}
+	}
+}
